@@ -240,14 +240,14 @@ __FALTREG
 .comment
  *(.comment)
 
-.debug_info       0x000000        0x16c
+.debug_info       0x000000        0x158
  *(.debug_info)
- .debug_info      0x000000        0x16c build/default/production/main.o
+ .debug_info      0x000000        0x158 build/default/production/main.o
  *(.gnu.linkonce.wi.*)
 
-.debug_abbrev     0x000000         0x50
+.debug_abbrev     0x000000         0x36
  *(.debug_abbrev)
- .debug_abbrev    0x000000         0x50 build/default/production/main.o
+ .debug_abbrev    0x000000         0x36 build/default/production/main.o
 
 .debug_line       0x000000         0x33
  *(.debug_line)

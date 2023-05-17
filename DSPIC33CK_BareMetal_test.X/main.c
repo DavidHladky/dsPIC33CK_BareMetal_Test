@@ -16,9 +16,13 @@
 /*
  * 
  */
-int main(int argc, char** argv) {
+int main(void) {
 
     
     return (EXIT_SUCCESS);
 }
+
+/*** Initialize system clock ***/
+
+
 
